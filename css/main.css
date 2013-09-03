@@ -5954,9 +5954,11 @@ td.visible-print {
   margin: 0 auto;
 }
 h1 {
-  font-family: "Lobster Two", sans-serif;
+  font-family: "Lobster", sans-serif;
   font-size: 80px;
   color: #eadbd5;
+  text-shadow: 1px 1px 1px #000000;
+  text-shadow: 3px 3px 3px #805240;
 }
 h2 {
   font-family: "Holtwood One SC", sans-serif;
@@ -5986,7 +5988,7 @@ h2 {
 }
 .demo-col-3 img {
   padding: 0px;
-  border: 6px solid #eadbd5;
+  border: 8px solid #eadbd5;
   margin-bottom: 10px;
 }
 .description {
@@ -6009,6 +6011,7 @@ footer {
 }
 body {
   background-image: url("../img/bg-dark.jpg");
+  background-size: cover;
 }
 .callout {
   font-family: "Holtwood One SC", sans-serif;
